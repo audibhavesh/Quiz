@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@android:color/background_dark">
+
+    <ImageView
+            android:layout_width="231dp"
+            android:layout_height="196dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="64dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/img"
+            android:layout_marginTop="36dp"
+            android:contentDescription="@string/todo"
+    />
+    <Button
+
+            android:text="@string/optionA"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/optionA"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="230dp"
+            android:background="@color/colorPrimary"
+            android:onClick="optA"/>
+    <Button
+
+            android:text="@string/optionB"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="154dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:id="@+id/optionB"
+            android:onClick="optB"/>
+    <Button
+            android:text="@string/next"
+            android:layout_width="240dp"
+            android:layout_height="59dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="71dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="47dp"
+            android:textSize="23sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/next"
+            android:onClick="next"/>
+</RelativeLayout>
+
+

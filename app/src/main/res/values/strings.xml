@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="todo">img</string>
+    <string name="optionA">Option A</string>
+    <string name="optionB">Option B</string>
+    <string name="next">Start Playing</string>
+    <string name="wrong">Wrong</string>
+    <string name="right">Right</string>
+    <string name="back">Play again</string>
+</resources>
